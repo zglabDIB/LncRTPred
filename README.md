@@ -6,6 +6,7 @@ LncRTPred is a target prediction tool to predict the interaction between lncRNA 
 * Sequence characters should be none other than __A, C, G, T__ or __U__.
 * Input fasta format extension should be given as __.fa__; <br/>
   __.fasta__ format won’t be accepted.
+* Input should be given in terms of __single-line fasta__ format corresponding to both lncRNA query and mRNA target files. Result from __multi-line fasta__ may contain error. 
 
 __Software:__ For executing the codes, the required list of Softwares are given below.<br/>
 
