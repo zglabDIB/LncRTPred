@@ -15,7 +15,7 @@ __Python programming Environment:__
 *	pandas
 *	numpy
 *	biopython version 1.78
-*	scikit-Learn version 0.23.2
+*	scikit-Learn version 0.23.1
 *	pickleshare version 0.7.5
 *	lightgbm version 2.3.1
 
