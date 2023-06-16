@@ -12,10 +12,10 @@ __Software:__ For executing the codes, the required list of Softwares are given 
 
 __Python programming Environment:__
 *	Anaconda software packages for python v3.8
-*	pandas (min version: 1.1.3;  max version: 1.5.3; Version equal to or more than 2.0 will fail to execute code.)
+*	pandas (min version: 1.1.3;  max version: 1.5.3; Version equal to or more than __2.0__ will fail to execute code.)
 *	numpy  (min version: 1.19.1;  max version: 1.20.3.)
 *	biopython version 1.78
-*	scikit-Learn version 0.23.1  (min version: 0.23.1;  max version: 0.24.2; Version equal to or more than 1.0 will fail to execute code.)
+*	scikit-Learn version 0.23.1  (min version: 0.23.1;  max version: 0.24.2; Version equal to or more than __1.0__ will fail to execute code.)
 *	pickleshare version 0.7.5
 *	lightgbm version 2.3.1
 
