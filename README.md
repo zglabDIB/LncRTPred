@@ -1,5 +1,6 @@
 # LncRTPred
 LncRTPred is a target prediction tool to predict the interaction between lncRNA and mRNA for both Human and Mouse species.
+Webserver version corresponding to the LncRTPred tool can be accessed from http://bicresources.jcbose.ac.in/zhumur/lncrtpred/index.html
 
 ### Pre-requisite:
 * The input dataset is provided in terms of sequences given in __fasta__ format corresponding to both lncRNA query and mRNA target for both species. The example of preformatted input sequence files (for both query and target) is provided in __Example__ folder.
