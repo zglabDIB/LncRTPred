@@ -34,4 +34,4 @@ ___Mouse:___
 * After the successful execution it will generate __Predicted_Val.csv__ in __Output_Data__ folder which provides the output in terms of predicted probabilities percentage of having successful interaction between lncRNA and mRNA given by __Decision Tree, k-nearest-neighbours, Random Forest__ and __LightGBM__ models.
 
 ### Final interaction score: 
-* By default, LncRNA-mRNA interaction will be considered positive if prediction probability (in percentage) > 50 of at least 3 among all the 4 models, else negative.The last column named __Final_Target_Score__ of the output file __Predicted_Val.csv__ file denotes the final interaction probability. But, user may change the criterion according to their requirement.
+* By default, LncRNA-mRNA interaction will be considered positive if prediction probability (in percentage) > 50 of at least 3 among all the 4 models, else negative.The last column named __Cumulative_Model_Score__ of the output file __Predicted_Val.csv__ file denotes the final interaction probability. But, user may change the criterion according to their requirement.
