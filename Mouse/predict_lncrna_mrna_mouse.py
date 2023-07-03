@@ -146,7 +146,7 @@ def make_pred(lnc_m_ind,lnc_mrna_df):
     lnc_m_ind['Random_Forest']=model_RF.predict(X_Test_PCA)
     lnc_m_ind['LightGBM']=model_LGBM.predict(X_Test_PCA)
 
-    lnc_m_ind['Final_Target_Score']=np.round((lnc_m_ind['Decision_Tree']+lnc_m_ind['K-Nearest-Neighbours']+lnc_m_ind['Random_Forest']+lnc_m_ind['LightGBM'])*100/4,2)
+    lnc_m_ind['Cumulative_Model_Score(%)']=np.round((lnc_m_ind['Decision_Tree']+lnc_m_ind['K-Nearest-Neighbours']+lnc_m_ind['Random_Forest']+lnc_m_ind['LightGBM'])*100/4,2)
 
     lnc_m_ind.drop(['Decision_Tree','K-Nearest-Neighbours','Random_Forest','LightGBM'],inplace=True,axis=1)
 
